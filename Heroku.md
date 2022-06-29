@@ -114,7 +114,7 @@ heroku pg:credentials:url
 
 ### Environment Variables
 ```sh
-heroku config:add ENV=prod
+heroku config:add ENV=dev
 heroku config:add DISABLE_COLLECTSTATIC=1
 heroku config:add SECRET_KEY=jhskfjgsdjgldshkg
 heroku config:add DBENGINE=postgresql_psycopg2
